@@ -10,4 +10,10 @@ Once Anaconda and Jupyter are installed use the start menue to open an anaconda 
 
 `conda install numpy matplotlib scipy sys pandas`
 
-This installs the needed packages to go though the included Jupyter notebooks. 
+This installs the needed packages to go though the included Jupyter notebooks.
+
+We will also need to install a package for dealing with the .edf files. The best package I found for this is [FabIO](https://pythonhosted.org/fabio/install.html) and it requires the following install. 
+
+`conda install setuptools wheel fabio`
+
+This will allow us to get both header information and data from the binary .edf file.
