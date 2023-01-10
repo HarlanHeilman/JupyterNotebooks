@@ -29,7 +29,7 @@ It is recomended to build an enviroment that you can use in the future for all y
 Enter the new enviroment and finish installing packages as needed, copy the lines that dont start with (#)
 
 `
-# Activate environment
+#Activate environment
 activate pypxr
 
 `
