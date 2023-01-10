@@ -9,8 +9,17 @@ There are several apps that are used to run notebooks but the most common two ar
 
 To install Anaconda, navigate to the web page [Anaconda](https://www.anaconda.com/) and select to download now. Open the downloaded executable and follow the recomended download instructions. 
 
-- [ ] Once we are done instaling Anaconda, navigate to Anaconda Navigator(Anaconda3) and run the program as an admin (This is needed to install packages). Ensure that you are in the base (root) enviroment before proceeding. 
+- [ ] Once we are done instaling Anaconda, navigate to Anaconda Navigator(Anaconda3) and run the program as an admin (This is needed to install packages).
+
+![image](https://user-images.githubusercontent.com/73567020/211663849-6152969b-fb96-4ceb-8772-34b0d071edf6.png)
+
+Ensure that you are in the base (root) enviroment before proceeding. 
+
+![image](https://user-images.githubusercontent.com/73567020/211663919-e30e9ce7-b26d-421b-9a8f-beb7cb65a61a.png)
+
 - [ ] Launch the CMD.exe Prompt to open a terminal in the (base) enviroment. 
+
+![image](https://user-images.githubusercontent.com/73567020/211663974-aa659613-8c97-428e-9eb4-d6e57dc4af05.png)
 
 ## Quick Install method
 
@@ -45,11 +54,11 @@ conda install uncertainties setuptools wheel fabio
 
 Once everything above is compleated, start by [downloading this repo](https://www.itpro.com/software/development/359246/how-to-download-from-github) and you will be able to acess any of the files for your own purposes. Once the repo is installed. Using the Anaconda Navigator, launch JupyterLab. This will open a notebook editor IDE in your default browser. With this open, you will see a side panel that gives you your working directory. 
 
-![image](https://user-images.githubusercontent.com/73567020/211663042-0c86e675-c0f1-46fb-a398-5a811eca6aa2.png)
+![image](https://user-images.githubusercontent.com/73567020/211663735-c2e4549a-fa8f-4cb1-8f47-7071e1c22de2.png)
 
 From here you will want to navigate to the install location of your github repository. When finished you should see something like this 
 
-![image](https://user-images.githubusercontent.com/73567020/211663266-d78db078-21ff-4823-ac67-60fb36cca3b9.png)
+![image](https://user-images.githubusercontent.com/73567020/211663690-4512e16e-a8a9-4000-a36f-48eb2191be9e.png)
 
 From here we can click to open any files you want I recomend starting with **curvefit1.ipynb** or **Fitting.ipynb**. Please reach out with any questions 
 
