@@ -10,20 +10,27 @@ There are several apps that are used to run notebooks but the most common two ar
 To install Anaconda, navigate to the web page [Anaconda](https://www.anaconda.com/) and select to download now. Open the downloaded executable and follow the recomended download instructions. 
 
 - [ ] Once we are done instaling Anaconda, navigate to Anaconda Navigator(Anaconda3) and run the program as an admin (This is needed to install packages). Ensure that you are in the base (root) enviroment before proceeding. 
-- [ ] Now that we are 
+- [ ] Launch the CMD.exe Prompt to open a terminal in the (base) enviroment. 
 
+## Quick Install method
 
-## Building Your Enviroment 
+To install the required packages for the notebooks in theis repo, copy and paste the folloiwing line into the terminal and hit enter to run. 
 
-One of the benifits of using python is the ability to use pre built functions stored in a package to simplify and improve the speed of your scripts. To outline how this works it is important to understand how python scripts are ran. Python scritps are ran in an enviroment, this envoroment contains many other python scripts and files that can interact with eachother. So long as a script is in the envoroment you are working in, you can run it in any other script you care for. Packages contain many python scripts as functions and can be added to any enviroment you care for. 
+`conda install numpy matplotlib scipy sys pandas setuptools wheel fabio`
 
-Anacond starts you off with a base(root) envoroment, and it pre poluates this enviroment with packages that
+This installs the `numpy`, `matplotlib`, `scipy`, `sys`, `pandas`, `setuptools`, `wheel`, and `fabio` python packages. This gives you acess to any functions in the packages and allows you to include these functions into any scripts in your (base) enviroment. 
 
-- `numpy`: This package 
+## Recomended Install Method
 
-`conda install numpy matplotlib scipy sys pandas`
+It is recomended to build an enviroment that you can use in the future for all your xray data analysis. We do this in anaconda, we first create a new enviroment:
 
+`conda create -n xray python=3.7 numpy scipy pandas matplotlib`
 
-`conda install setuptools wheel fabio`
+Enter the new enviroment and finish installing packages as needed, copy the lines that dont start with (#)
 
+`
+# Activate environment
+activate pypxr
+
+`
 
