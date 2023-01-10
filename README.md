@@ -9,11 +9,8 @@ There are several apps that are used to run notebooks but the most common two ar
 
 To install Anaconda, navigate to the web page [Anaconda](https://www.anaconda.com/) and select to download now. Open the downloaded executable and follow the recomended download instructions. 
 
-[]
-[]
-[]
-[] Once we are done instaling Anaconda, navigate to Anaconda Navigator(Anaconda3) and run the program as an admin (This is needed to install packages). Ensure that you are in the base (root) enviroment before proceeding. 
-[] Now that we are 
+- [ ] Once we are done instaling Anaconda, navigate to Anaconda Navigator(Anaconda3) and run the program as an admin (This is needed to install packages). Ensure that you are in the base (root) enviroment before proceeding. 
+- [ ] Now that we are 
 
 
 ## Building Your Enviroment 
