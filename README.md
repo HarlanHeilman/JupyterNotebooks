@@ -16,7 +16,8 @@ To install Anaconda, navigate to the web page [Anaconda](https://www.anaconda.co
 
 To install the required packages for the notebooks in theis repo, copy and paste the folloiwing line into the terminal and hit enter to run. 
 
-`conda install numpy matplotlib scipy sys pandas setuptools wheel fabio`
+`conda install numpy matplotlib scipy sys pandas setuptools wheel uncertainties`
+
 
 This installs the `numpy`, `matplotlib`, `scipy`, `sys`, `pandas`, `setuptools`, `wheel`, and `fabio` python packages. This gives you acess to any functions in the packages and allows you to include these functions into any scripts in your (base) enviroment. 
 
@@ -28,9 +29,11 @@ It is recomended to build an enviroment that you can use in the future for all y
 
 Enter the new enviroment and finish installing packages as needed, copy the lines that dont start with (#)
 
-`
-#Activate environment
+```
+# Activate environment
 activate pypxr
 
-`
+# Install Required Packages
+conda install uncertainties setuptools wheel fabio 
+```
 
