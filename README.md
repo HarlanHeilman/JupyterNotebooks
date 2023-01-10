@@ -41,3 +41,15 @@ activate pypxr
 conda install uncertainties setuptools wheel fabio 
 ```
 
+## Opening A Notebook
+
+Once everything above is compleated, start by [downloading this repo](https://www.itpro.com/software/development/359246/how-to-download-from-github) and you will be able to acess any of the files for your own purposes. Once the repo is installed. Using the Anaconda Navigator, launch JupyterLab. This will open a notebook editor IDE in your default browser. With this open, you will see a side panel that gives you your working directory. 
+
+![image](https://user-images.githubusercontent.com/73567020/211663042-0c86e675-c0f1-46fb-a398-5a811eca6aa2.png)
+
+From here you will want to navigate to the install location of your github repository. When finished you should see something like this 
+
+![image](https://user-images.githubusercontent.com/73567020/211663266-d78db078-21ff-4823-ac67-60fb36cca3b9.png)
+
+From here we can click to open any files you want I recomend starting with **curvefit1.ipynb** or **Fitting.ipynb**. Please reach out with any questions 
+
