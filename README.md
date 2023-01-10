@@ -53,6 +53,11 @@ pip install jupyterlab
 pip install uncertainties setuptools wheel fabio 
 ```
 
+Once this is done feel free to close your terminal and swap to your new xray eviroment. 
+
+![image](https://user-images.githubusercontent.com/73567020/211678728-cabea0f1-35af-4132-936f-82dede5d8044.png)
+
+
 ## Opening A Notebook
 
 Once everything above is compleated, start by [downloading this repo](https://www.itpro.com/software/development/359246/how-to-download-from-github) and you will be able to acess any of the files for your own purposes. Once the repo is installed. Using the Anaconda Navigator, launch JupyterLab. This will open a notebook editor IDE in your default browser. With this open, you will see a side panel that gives you your working directory. 
