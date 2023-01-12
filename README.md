@@ -17,20 +17,20 @@ Ensure that you are in the base (root) enviroment before proceeding.
 
 ![image](https://user-images.githubusercontent.com/73567020/211663919-e30e9ce7-b26d-421b-9a8f-beb7cb65a61a.png)
 
-- [ ] Launch the CMD.exe Prompt to open a terminal in the (base) enviroment. 
+- [ ] Launch the Powershell Prompt Prompt to open a terminal in the (base) enviroment. 
 
-![image](https://user-images.githubusercontent.com/73567020/211663974-aa659613-8c97-428e-9eb4-d6e57dc4af05.png)
+![image](https://user-images.githubusercontent.com/73567020/211677774-e826bd70-d8fd-4402-afc1-6027840f583b.png)
 
 ## Quick Install method
 
 To install the required packages for the notebooks in theis repo, copy and paste the folloiwing line into the terminal and hit enter to run. 
 
 ```
-conda install numpy matplotlib scipy sys pandas setuptools wheel uncertainties
+conda install numpy matplotlib scipy pandas setuptools wheel uncertainties
 ```
 
 
-This installs the `numpy`, `matplotlib`, `scipy`, `sys`, `pandas`, `setuptools`, `wheel`, and `fabio` python packages. This gives you acess to any functions in the packages and allows you to include these functions into any scripts in your (base) enviroment. 
+This installs the `numpy`, `matplotlib`, `scipy`, `pandas`, `setuptools`, `wheel`, and `fabio` python packages. This gives you acess to any functions in the packages and allows you to include these functions into any scripts in your (base) enviroment. 
 
 ## Recomended Install Method
 
@@ -40,15 +40,23 @@ It is recomended to build an enviroment that you can use in the future for all y
 conda create -n xray python=3.7 numpy scipy pandas matplotlib
 ```
 
-Enter the new enviroment and finish installing packages as needed, copy the lines that dont start with (#)
+To enter this new xray enviroment and finish installing packages as needed, copy the lines that dont start with (#)
 
 ```
 # Activate environment
-activate pypxr
+conda activate xray
 
-# Install Required Packages
-conda install uncertainties setuptools wheel fabio 
+# Install Jupyterlab in the new xray enviroment
+pip install jupyterlab
+
+# Useful  Packages to include
+pip install uncertainties setuptools wheel fabio 
 ```
+
+Once this is done feel free to close your terminal and swap to your new xray eviroment. 
+
+![image](https://user-images.githubusercontent.com/73567020/211678728-cabea0f1-35af-4132-936f-82dede5d8044.png)
+
 
 ## Opening A Notebook
 
