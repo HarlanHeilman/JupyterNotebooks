@@ -47,7 +47,7 @@ To enter this new xray enviroment and finish installing packages as needed, copy
 conda activate xray
 
 # Install Jupyterlab in the new xray enviroment
-pip install jupyterlab ipywidgets pip chardet 
+pip install jupyterlab ipywidgets chardet 
 
 # Useful  Packages to include
 pip install uncertainties setuptools wheel fabio 
