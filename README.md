@@ -26,7 +26,7 @@ Ensure that you are in the base (root) enviroment before proceeding.
 To install the required packages for the notebooks in theis repo, copy and paste the folloiwing line into the terminal and hit enter to run. 
 
 ```
-pip install numpy matplotlib scipy pandas setuptools wheel uncertainties
+pip install numpy matplotlib scipy pandas setuptools wheel uncertainties fabio
 ```
 
 
