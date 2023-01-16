@@ -51,6 +51,9 @@ pip install jupyterlab ipywidgets chardet
 
 # Useful  Packages to include
 pip install uncertainties setuptools wheel fabio 
+
+# A way you can download a notebook
+pip install nbconvert[webpdf]
 ```
 
 Once this is done feel free to close your terminal and swap to your new xray eviroment. 
@@ -70,3 +73,6 @@ From here you will want to navigate to the install location of your github repos
 
 From here we can click to open any files you want I recomend starting with **curvefit1.ipynb** or **Fitting.ipynb**. Please reach out with any questions 
 
+## Downloading Notebooks
+
+For information on downloading notebooks, this [website](https://mljar.com/blog/jupyter-notebook-pdf/) gives a good explaination.
